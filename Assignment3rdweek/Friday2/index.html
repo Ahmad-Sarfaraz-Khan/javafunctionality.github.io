@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nature Gallery</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <br>
+        <h1 style="text-align:center;">Nature Gallery</h1>
+<div class="full-img" id="fullImgBox">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.uzBQqJEQnYnaed_kbnG-RQHaEK&pid=Api&P=0&w=349&h=196" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+</div>
+
+        <div class="img-gallery">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.uzBQqJEQnYnaed_kbnG-RQHaEK&pid=Api&P=0&w=349&h=196" onclick="openFullImg(this.src)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.6crTRWsWEOKRdHezvYPPlQHaEo&pid=Api&P=0&w=290&h=181" onclick="openFullImg(this.src)">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.-l7oF72iG2fZsI6AdGyy8AHaEo&pid=Api&P=0&w=247&h=154" onclick="openFullImg(this.src)">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.U0SfqHcCr4A3TEW4cIDGOQHaEI&pid=Api&P=0&w=307&h=171" onclick="openFullImg(this.src)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.SrHaJH-cbWkhE9zanummIQHaEK&pid=Api&P=0&w=273&h=154" onclick="openFullImg(this.src)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.4TRE4YqaZ-m-4BU5aB0X_AHaEo&pid=Api&P=0&w=267&h=167" onclick="openFullImg(this.src)">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.7mmM0fQEiSwyKXiLuSwC0AHaEK&pid=Api&P=0&w=297&h=167" onclick="openFullImg(this.src)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JxfFlPJgUAGTJNM4vD2WkQHaEo&pid=Api&P=0&w=269&h=168" onclick="openFullImg(this.src)">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.Ysb5iD95Keu1ahPkpxaUrwHaEK&pid=Api&P=0&w=309&h=174" onclick="openFullImg(this.src)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.yaPDoCNxHv-zMluIceS8nQHaEK&pid=Api&P=0&w=290&h=163" onclick="openFullImg(this.src)">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.FI0CYH0ohASfMHwZdlhoVwHaEo&pid=Api&P=0&w=274&h=171"onclick="openFullImg(this.src)">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.k7bKTppKB2u4UzwYhSP7agHaEK&pid=Api&P=0&w=297&h=167" onclick="openFullImg(this.src)">
+            
+
+
+        </div>
+
+        <script>
+            var fullImgBox=document.getElementById("fullImgBox");
+            var fullImg=document.getElementById("fullImg");
+
+            function openFullImg(pic){
+                fullImgBox.style.display="flex";
+                fullImg.src=pic;
+            }
+            function closeFullImg(){
+              fullImgBox.style.display="none";  
+            }
+        </script>
+
+    
+    </body>
+</html>
